@@ -271,7 +271,6 @@ nav ul li{
 /*header fin*/
 
 /* pagina productos inicio*/
-
 .grid-layout {
     width: 1200px;
     margin:20px auto;
@@ -374,60 +373,6 @@ nav ul li{
     flex-direction: column;
 }
 
-.link {
-    bottom: 400px;
-    left:75px;
-    transition: 0.5s;
-    opacity: 0;
-}
-
-@media (max-width: 1210px) {
-    .link{
-        left:125px;
-    }
-}
-
-@media (max-width: 976px) {
-    .link {
-        left: 100px;
-    }
-}
-
-@media (max-width: 860px) {
-    .link {
-        left: 60px;
-    }
-}
-
-@media (max-width: 716px) {
-    .link {
-        left: 95px;
-    }
-}
-
-@media (max-width: 540px) {
-    .link {
-        left: 70px;
-    }
-}
-
-.link button {
-    width:90px;
-    height:30px;
-    white-space: nowrap;
-    border-radius:20px ;
-    border: 1px solid white ;
-    transition: 0.5;
-    background-color:transparent;
-}
-
-.link:hover {
-    opacity: 1;
-}
-
-.link button:hover {
-    background-color:#EEF2F2;
-}
 
 /*buscador*/
 
@@ -812,4 +757,64 @@ ul{
 } 
 .link_error:hover{
     color: #0d0;
+}
+
+/*juego encontrado*/
+
+.container_juegoEncontrado{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.juego_encontrado{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+    .juego_encontrado{
+        display: flex;
+        flex-direction: column;
+    }
+}
+.juego_encontrado__imagen{
+    width: 100%;
+    height: 100%;
+}
+.descripcion_juego{
+    display: block;
+    margin: 30px;
+}
+.texto_juego{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.boton{
+    display: inline-block;
+    background-color: #0082e6;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-weight: bold; 
+    border-radius: 6px;
+    padding: 5px;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+
+.precio_juego{
+    border: 2px solid #2222ff;
+    display: inline-block;
+    font-size: 20px;
+    background-color: #1b9bff;
+    color: var(--blanco);
+    border-radius: 4px;
+    padding: 10px;
+}
+.pagination{
+    
 }
