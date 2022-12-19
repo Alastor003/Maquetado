@@ -78,7 +78,7 @@ require('layout/_header.php');
     
     <div class="inner">
         <div class="grid-card">
-            <img src= "<?php echo substr($juegos['imagen'],2)?>" alt="">
+            <img src= "<?php echo ($juegos['imagen'])?>" alt="">
             <div class="texts">
             <h3> <?php echo $juegos['nombre']; ?> </h3>
             <p> Precio:<?php echo $juegos['precio']; ?> $</p>

@@ -18,7 +18,7 @@ require('layout/_header.php');
 
                 <div class="juego_encontrado">
                    <div> 
-                    <img class="juego_encontrado__imagen" src= "<?php echo substr($juego['imagen'],2)?>" alt="">
+                    <img class="juego_encontrado__imagen" src= "<?php echo ($juego['imagen'])?>" alt="">
                     </div>
 
                     <div class="descripcion_juego">

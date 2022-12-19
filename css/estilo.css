@@ -57,12 +57,6 @@ h1, h2, h3, h4 {
     }
   }
   
-  .card {
-    transition: .3s;
-  }
-  .card:hover {
-    transform: scale(1.04);
-  }
 
   /* Section */
   .about-section {
@@ -918,4 +912,33 @@ ul{
         margin: 0;
         max-width: 100%;
     }
+}
+
+.cajaLogin {
+    background-image: url('../img/form.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    height: 100vh;
+}
+.flex-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.back {
+    text-decoration: none;  
+    transition: .5s;
+}
+.back:hover {
+    color:#e22;
+}
+
+.administracion{
+   width: auto;
+}
+
+.form-control {
+    max-width: 95%;
 }

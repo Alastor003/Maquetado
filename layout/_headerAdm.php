@@ -28,12 +28,10 @@
         <label class="logo" >PORTAL<span class="house">GAMING</span> </label>
             <ul class="header_ul">
                 <li><a class="btn_nav" href="index.php">HOME</a></li>
-                <li><a class="btn_nav" href="products.php"> PRODUCTOS</a></li>
-                <li><a class="btn_nav" href="noticias.php"> NOTICIAS</a></li>
-                <li><a class="btn_nav" href="formulario.php"> CONTACTO</a></li>
-                <li><a class="btn_nav" href="login.php"> Log In</a></li>
+                <li><a class="btn_nav" href="añadirProducto.php">AÑADIR PRODUCTOS</a></li>
+                <li><a class="btn_nav" href="listaProductos.php">LISTA DE PRODUCTOS</a></li>
+                
                
                 
             </ul>
     </nav>
-

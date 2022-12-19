@@ -1,4 +1,3 @@
-
 <?php require('layout/_header.php'); ?>
 
 <div class="bg-light index">
