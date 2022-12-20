@@ -32,8 +32,6 @@
                 <li><a class="btn_nav" href="noticias.php"> NOTICIAS</a></li>
                 <li><a class="btn_nav" href="formulario.php"> CONTACTO</a></li>
                 <li><a class="btn_nav" href="login.php"> Log In</a></li>
-               
-                
-            </ul>
+            </ul>  
     </nav>
 
